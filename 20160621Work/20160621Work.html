@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+</head>
+
+<body style="font-family: "微軟正黑體", sans-serif;">
+
+
+    <nav class="navbar navbar-default" style="">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#" style=" color:#381200;">coffee</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" >
+                    <li class=""><a href="#" style=" color:#381200;">最新消息 <span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style=" color:#381200;">產品清單 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#container" style=" color:#381200;">咖啡</a></li>
+                            <li><a href="#container" style=" color:#381200;">蛋糕</a></li>
+                            <li><a href="#container" style=" color:#381200;">飲品</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#container" style=" color:#381200;">生活小物</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#contact" style=" color:#381200;">聯絡我們</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style=" color:#381200;">尋找coffee <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" style=" color:#381200;">高雄</a></li>
+                            <li><a href="#" style=" color:#381200;">台中</a></li>
+                            <li><a href="#" style=" color:#381200;">台北</a></li>
+                            <li><a href="#" style=" color:#381200;">花蓮</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="jumbotron" style="background-image: url(images/001.jpg); height:35em; text-align: center;">
+        <h1 style="color: white; font-size: 7em; text-shadow: 5px 5px 5px #333;"><b>Coffee Shop</b></h1>
+        <p>...</p>
+        <p><a class="btn btn-primary btn-lg" href="#product" role="button">了解更多</a></p>
+    </div>
+    
+    <div style="width:80%; margin: 3em auto; font-size: 1.5em;">
+        <h2 style="text-align:center; color:#381200; margin-bottom: 1em;"><b>最新消息<b></h2>
+        <div style="height:50px; background-color:#9b634c; color:#381200; line-height:50px; border-top-left-radius:5px; border-top-right-radius:5px">　2015/03/11　　　貓咪蛋糕新上市!!</div>
+        <div style="height:50px; background-color:#381200; color:#9b634c; line-height:50px;">　2015/08/26　　　2016/08/26~2015/09/26 全店蛋糕8折</div>
+        <div style="height:50px; background-color:#9b634c; color:#381200; line-height:50px;">　2015/03/11　　　貓咪蛋糕新上市!!</div>
+        <div style="height:50px; background-color:#381200; color:#9b634c; line-height:50px;">　2015/08/26　　　2016/08/26~2015/09/26 全店蛋糕8折</div>
+        <div style="height:50px; background-color:#9b634c; color:#381200; line-height:50px;">　2015/03/11　　　貓咪蛋糕新上市!!</div>
+        <div style="height:50px; background-color:#381200; color:#9b634c; line-height:50px;">　2015/08/26　　　2016/08/26~2015/09/26 全店蛋糕8折</div>
+        <div style="height:50px; background-color:#9b634c; color:#381200; line-height:50px; border-bottom-left-radius:5px; border-bottom-right-radius:5px">　2015/03/11　　　貓咪蛋糕新上市!!</div>
+    </div>
+
+
+
+
+
+    <div class="container" id="product" style="margin-bottom: 3em;">
+        <h2 style="text-align:center; color:#381200; margin-bottom: 1.5em;"><b>產品介紹<b></h2>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel" style="">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size: 1.3em; font-weight:600;">咖啡</h3>
+                    </div>
+                    <ul class="list-group list-group">
+                        <li><img src="images/002.jpg" class="img-responsive"></img>
+                        </li>
+                        <li class="list-group-item">招牌拿鐵咖啡</li>
+                        <li class="list-group-item">卡布奇諾咖啡</li>
+                        <li class="list-group-item">炭燒咖啡</li>
+                        <li class="list-group-item">美式咖啡</li>
+                        <li class="list-group-item">...
+                            <a href="javascript:alert('沒有更多了')" class="btn btn-primary btn-sm" style="float: right; padding:0px 8px;">more</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size: 1.3em; font-weight:600;">蛋糕</h3>
+                    </div>
+                    <ul class="list-group list-group">
+                        <li><img src="images/003.jpg" class="img-responsive"></img>
+                        </li>
+                        <li class="list-group-item">招牌咖啡蛋糕</li>
+                        <li class="list-group-item">栗子蛋糕</li>
+                        <li class="list-group-item">黑森林蛋糕</li>
+                        <li class="list-group-item">起司蛋糕</li>
+                        <li class="list-group-item">...
+                            <a href="javascript:alert('沒有更多了')" class="btn btn-primary btn-sm" style="float: right; padding:0px 8px;">more</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size: 1.3em; font-weight:600;">飲品</h3>
+                    </div>
+                    <ul class="list-group list-group">
+                        <li><img src="images/004.jpg" class="img-responsive"></img>
+                        </li>
+                        <li class="list-group-item">招牌冰咖啡</li>
+                        <li class="list-group-item">紅茶拿鐵</li>
+                        <li class="list-group-item">茉香綠茶</li>
+                        <li class="list-group-item">大吉嶺紅茶</li>
+                        <li class="list-group-item">...
+                            <a href="javascript:alert('沒有更多了')" class="btn btn-primary btn-sm" style="float: right; padding:0px 8px;">more</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size: 1.3em; font-weight:600;">生活小物</h3>
+                    </div>
+                    <ul class="list-group list-group">
+                        <li><img src="images/005.jpg" class="img-responsive"></img>
+                        </li>
+                        <li class="list-group-item">蛋黃哥娃娃</li>
+                        <li class="list-group-item">蛋黃哥吊飾</li>
+                        <li class="list-group-item">蛋黃哥公仔</li>
+                        <li class="list-group-item">蛋黃哥生活小物</li>
+                        <li class="list-group-item">...
+                            <a href="javascript:alert('沒有更多了')" class="btn btn-primary btn-sm" style="float: right; padding:0px 8px;">more</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--contact-->
+    <h2 style="text-align:center; color:#381200;"><b>聯絡我們<b></h2>
+    <form action="mailto:aaa@name.com" method="post" enctype="text/plain" accept-charset="UTF-8" 
+    id="contact" style="text-align:center; width: 60%; margin:50px auto;">
+        <!--enctype 信件形式 method 發送form-data的HTTP方法-->
+        <div class="" style="">
+            <label for="fname" data-required="" style="color:#381200;">姓名</label>
+            <input name="fname" type="text" placeholder="王大明" required="required" style="width: 80%; height:35px; border:none; border-bottom: 1px solid #381200;">
+            <!--type類型 placeholder預填 required必填-->
+        </div>
+        <div class="">
+            <label for="femail" data-required="" style="color:#381200;">信箱</label>
+            <input name="femail" type="email" placeholder="youremail@xxx.com" required="required" style="width: 80%; height:35px; margin-top: 0.7em; border:none; border-bottom: 1px solid #381200;">
+        </div>
+        <div class="">
+            <label for="ftell" style="color:#381200;">電話&nbsp;</label>
+            <input name="ftell" type="tel" placeholder="09xxxxxxxx" style="width: 80%; height:35px; margin-top: 0.7em; border:none; border-bottom: 1px solid #381200;">
+        </div>
+        <div class="">
+            <label for="fmsg" data-required="" style="color:#381200;">留言</label>
+            <textarea name="fmsg" rows="5" cols="15" placeholder="謝謝您的建議" required="required" style="width: 80%; margin-top: 0.7em; border:none; border-bottom: 1px solid #381200;"></textarea>
+        </div>
+        
+        <a href="javascript:alert('送不出去...')" class="btn btn-primary btn-lg" href="#product" role="button" style="margin-top:0.7em;">送出</a>
+       
+
+    </form>
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <div class="" style="background-color: #381200; height: 7em; line-height: 7em; color: #aa5d39; font-size: 1.2em; text-align: center; margin-top:1em;">2016.06.22 Sakamoto</div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

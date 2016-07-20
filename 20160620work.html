@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>test table</title>
+        <style type="text/css">
+            h1{
+                text-align: center;
+            }
+            table{
+                width: 80vw;
+                background-color: white;
+                border: solid 1px;
+                border: solid 1px #888;
+                margin: 0 auto;
+            }
+            table td{
+                border: solid 1px #888;
+                background-color: #bbe;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 1.2em;
+            }
+            .red{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>2016.06.20 work</h1>
+            <p>段考成績單</p>
+        <table>
+            <tr><td ROWSPAN=2>姓名</td><td COLSPAN=3>各科成績</td><td ROWSPAN=2>名次</td></tr>
+            <tr><td>國文</td><td>英文</td><td>數學</td></tr>
+            <tr><td>小名</td><td>90</td><td>87</td><td>88</td><td>1</td></tr>
+            <tr><td>小華</td><td>76</td><td class="red">55</td><td>93</td><td>2</td></tr>
+            <tr><td>大雄</td><td class="red">0</td><td class="red">0</td><td class="red">0</td><td>3</td></tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+/*建立mySQL資料庫*/
+create database mySQL default character set utf8;
+
+/*進入mySQL*/
+use mySQL;
+
+/*建立有number, reason, money, remark  4個欄位的資料表expenditure*/
+create table expenditure
+(
+number int(4) not null primary key,
+
+reason varchar(20) not null,
+  
+money int(6) not null,
+  
+remark varchar(50) null
+);
+
+/*新增幾筆資料*/
+insert into expenditure (`number`,`reason`,`money`) value (1,'breakfast',49);
+insert into expenditure (`number`,`reason`,`money`) value (2,'lunch',65);
+insert into expenditure (`number`,`reason`,`money`) value (3,'dinner',60);
+insert into expenditure (`number`,`reason`,`money`,`remark`) value (4,'other',20,'drink');
+
+/*顯示目前資料*/
+select * 
+from `expenditure`;
+
+/*刪除`reason` = 'other'的資料*/
+delete from expenditure where `reason` = 'other';
+
+/*修改第一筆資料*/
+update expenditure set `money` = 80 where `number` = 3;
