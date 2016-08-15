@@ -1,16 +1,17 @@
 <?php 
 header("Content-Type:text/html; charset=utf-8");
+
 $origin = array(
-        array(1, 1, 0, 0, 0, 0, 0, 0, 0, 1),
-        array(0, 0, 0, 0, 0, 0, 0, 0, 1, 1),
-        array(1, 1, 1, 1, 1, 1, 1, 0, 0, 1),
-        array(0, 0, 0, 0, 0, 0, 1, 1, 0, 1),
-        array(1, 1, 1, 1, 1, 0, 1, 0, 0, 1),
-        array(0, 0, 0, 0, 1, 0, 1, 0, 0, 1),
-        array(1, 1, 1, 0, 1, 0, 0, 0, 0, 0),
-        array(1, 0, 1, 0, 1, 1, 0, 1, 1, 1),
-        array(1, 0, 0, 0, 1, 0, 0, 1, 0, 1),
-        array(1, 1, 1, 1, 1, 0, 0, 1, 1, 1)
+        array(0, 0, 1, 1, 0, 0, 0, 0, 0, 1),
+        array(0, 0, 1, 0, 1, 0, 0, 1, 1, 1),
+        array(0, 1, 0, 1, 1, 0, 1, 0, 0, 1),
+        array(1, 0, 1, 0, 0, 0, 1, 1, 0, 1),
+        array(1, 1, 1, 0, 0, 0, 1, 0, 0, 0),
+        array(0, 0, 0, 0, 0, 0, 1, 0, 1, 1),
+        array(1, 1, 1, 1, 1, 1, 0, 0, 0, 1),
+        array(1, 0, 0, 0, 0, 1, 0, 1, 1, 1),
+        array(1, 0, 0, 0, 0, 1, 0, 1, 0, 1),
+        array(1, 1, 1, 1, 0, 0, 0, 1, 1, 1)
         );
 
 $total = 0;
@@ -27,14 +28,20 @@ foreach($origin as $origin2){
 echo "<br><br>";
 
 //=============集合每一群=============
+// $total = 0;
+
+
 for($i = 0; $i <= 9; $i++){
     for($j = 0; $j <= 9; $j++){
         
-        $totalAll[$i][$j] = loopOrigin($i,$j);
         $total = 0;
+        $totalAll[$i][$j] = loopOrigin($i,$j);
         
     }
 }
+
+
+
 function loopOrigin($i,$j){
     global $origin,$total;
     if($origin[$i][$j] == 1){
