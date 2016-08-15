@@ -6,3 +6,4 @@ loginWork資料夾： 登入(index + 登入畫面 + 會員頁)，使用cookie
 20160712work_Design Pattern： 11種Design Pattern的心得及舉例
 
 find_max_block-1.php：201608 Find max block
+簡報技巧-Sakamoto_Lee.pptx：簡報技巧報告
