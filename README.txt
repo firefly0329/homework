@@ -7,3 +7,4 @@ loginWork資料夾： 登入(index + 登入畫面 + 會員頁)，使用cookie
 
 find_max_block-1.php：201608 Find max block
 簡報技巧-Sakamoto_Lee.pptx：簡報技巧報告
+Sakamoto_Lee2個月的學習心得：20160829  2個月的學習心得
